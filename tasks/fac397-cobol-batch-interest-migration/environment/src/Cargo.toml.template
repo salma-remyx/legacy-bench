@@ -1,0 +1,12 @@
+[package]
+name = "batch_processor"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+rusqlite = { version = "0.31.0", features = ["bundled"] }
+chrono = "0.4.38"
+
+[[bin]]
+name = "batch_processor"
+path = "src/main.rs"
