@@ -116,17 +116,6 @@ Key findings:
 
 Read the full analysis: [factory.ai/news/legacy-bench](https://factory.ai/news/legacy-bench)
 
-## Contributing
-
-We welcome contributions of new legacy tasks. Each task should include:
-
-1. A natural language instruction (`instruction.md`)
-2. A containerized environment with source files (`environment/` with `Dockerfile`)
-3. A reference solution (`solution/`)
-4. Hidden verification tests (`tests/`)
-
-Tasks should follow the Harbor task format. See existing tasks for examples.
-
 ## License
 
 This project is licensed under the Apache License 2.0 -- see the [LICENSE](LICENSE) file for details.
