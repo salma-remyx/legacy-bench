@@ -1,6 +1,18 @@
 schema_version: 1
 fork: salma-remyx/legacy-bench
-observed_landing_zones: []
+observed_landing_zones:
+- path: tasks/2831b5-java7-rating-engine-repair/tests/
+  shape_tags:
+  - unclassified
+  confirmed_by:
+  - arxiv: 2607.05391v1
+    mode: Mode 2 (adapted port)
+    call_site_specifics: the task's existing test.sh -> `pytest /tests/test_outputs.py`;
+      pytest auto-discovers the new tests/conftest.py (same dir as the collected test
+      file, no existing file modified), whose pytest_sessionfi
+    branch: llm-as-a-verifier-a-general-purpose-verification-framework
+    timestamp: '2026-07-19T14:26:29Z'
+  last_observed: '2026-07-19T14:26:29Z'
 rejected_shapes:
 - shape_tag: null
   reason_code: null
@@ -9,4 +21,4 @@ rejected_shapes:
   - arxiv: 2607.09510v1
     timestamp: '2026-07-18T21:02:00Z'
 coordination_signals: []
-last_updated: '2026-07-18T21:02:00Z'
+last_updated: '2026-07-19T14:26:29Z'
