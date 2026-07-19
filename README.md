@@ -130,3 +130,7 @@ This project is licensed under the Apache License 2.0 -- see the [LICENSE](LICEN
   url={https://github.com/factory-ai/legacy-bench}
 }
 ```
+
+## Verifier scoring (continuous, decomposed)
+
+In addition to the binary `reward.txt` written by each task's `test.sh`, a task's verifier may also emit `/logs/verifier/score.json`: a fine-grained, criteria-decomposed score with a per-requirement pass/fail and a short failure explanation. The deterministic oracle is unchanged and remains the source of ground truth; `score.json` is purely a diagnostic that turns a silent binary failure into a signal showing *which* requirement failed and *why* -- directly addressing the finding that agents rarely know when they are wrong. The scoring layer is an opt-in addition currently wired into the `2831b5-java7-rating-engine-repair` task; see `tasks/2831b5-java7-rating-engine-repair/tests/verifier_score.py`.
