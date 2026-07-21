@@ -13,6 +13,16 @@ observed_landing_zones:
     branch: llm-as-a-verifier-a-general-purpose-verification-framework
     timestamp: '2026-07-19T14:26:29Z'
   last_observed: '2026-07-19T14:26:29Z'
+- path: tasks/8e8098-cobol-railcar-settlement-fix/tests/
+  shape_tags:
+  - unclassified
+  confirmed_by:
+  - arxiv: 2607.05391v1
+    mode: ''
+    call_site_specifics: ''
+    branch: llm-as-a-verifier-a-general-purpose-verification-framework-v2
+    timestamp: '2026-07-21T22:40:50Z'
+  last_observed: '2026-07-21T22:40:50Z'
 rejected_shapes:
 - shape_tag: null
   reason_code: null
@@ -23,4 +33,4 @@ rejected_shapes:
   - arxiv: 2607.05391v1
     timestamp: '2026-07-20T08:36:42Z'
 coordination_signals: []
-last_updated: '2026-07-20T08:36:42Z'
+last_updated: '2026-07-21T22:40:50Z'
