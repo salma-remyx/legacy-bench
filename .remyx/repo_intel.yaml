@@ -23,6 +23,16 @@ observed_landing_zones:
     branch: llm-as-a-verifier-a-general-purpose-verification-framework-v2
     timestamp: '2026-07-21T22:40:50Z'
   last_observed: '2026-07-21T22:40:50Z'
+- path: tasks/3af1fe-cobol-bond-settlement-reconcile/tests/
+  shape_tags:
+  - unclassified
+  confirmed_by:
+  - arxiv: 2508.05710v1
+    mode: ''
+    call_site_specifics: ''
+    branch: klear-codetest-scalable-test-case-generation-for-code-reinfo
+    timestamp: '2026-08-04T17:33:49Z'
+  last_observed: '2026-08-04T17:33:49Z'
 rejected_shapes:
 - shape_tag: null
   reason_code: null
@@ -37,4 +47,4 @@ rejected_shapes:
   - arxiv: 2607.28271v1
     timestamp: '2026-08-04T00:08:16Z'
 coordination_signals: []
-last_updated: '2026-08-04T00:08:16Z'
+last_updated: '2026-08-04T17:33:49Z'
