@@ -33,6 +33,16 @@ observed_landing_zones:
     branch: klear-codetest-scalable-test-case-generation-for-code-reinfo
     timestamp: '2026-08-04T17:33:49Z'
   last_observed: '2026-08-04T17:33:49Z'
+- path: tasks/16b04d-cobol-railroad-retirement-migration/tests/
+  shape_tags:
+  - unclassified
+  confirmed_by:
+  - arxiv: 2607.28271v1
+    mode: ''
+    call_site_specifics: ''
+    branch: agentic-method-for-deterministic-validation-of-legacy-code-m
+    timestamp: '2026-08-09T17:58:18Z'
+  last_observed: '2026-08-09T17:58:18Z'
 rejected_shapes:
 - shape_tag: null
   reason_code: null
@@ -49,4 +59,4 @@ rejected_shapes:
   - arxiv: 2607.22471v1
     timestamp: '2026-08-09T00:05:12Z'
 coordination_signals: []
-last_updated: '2026-08-09T00:05:12Z'
+last_updated: '2026-08-09T17:58:18Z'
