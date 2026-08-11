@@ -43,6 +43,16 @@ observed_landing_zones:
     branch: agentic-method-for-deterministic-validation-of-legacy-code-m-v2
     timestamp: '2026-08-11T04:00:36Z'
   last_observed: '2026-08-11T04:00:36Z'
+- path: tasks/d1ddc1-fortran-to-cpp-lattice-qcd-migration/tests/
+  shape_tags:
+  - unclassified
+  confirmed_by:
+  - arxiv: 2607.28271v1
+    mode: ''
+    call_site_specifics: ''
+    branch: agentic-method-for-deterministic-validation-of-legacy-code-m-v3
+    timestamp: '2026-08-11T23:10:03Z'
+  last_observed: '2026-08-11T23:10:03Z'
 rejected_shapes:
 - shape_tag: null
   reason_code: null
@@ -59,4 +69,4 @@ rejected_shapes:
   - arxiv: 2607.22471v1
     timestamp: '2026-08-09T00:05:12Z'
 coordination_signals: []
-last_updated: '2026-08-11T04:00:36Z'
+last_updated: '2026-08-11T23:10:03Z'
