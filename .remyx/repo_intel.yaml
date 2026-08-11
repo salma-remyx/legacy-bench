@@ -40,9 +40,9 @@ observed_landing_zones:
   - arxiv: 2607.28271v1
     mode: ''
     call_site_specifics: ''
-    branch: agentic-method-for-deterministic-validation-of-legacy-code-m
-    timestamp: '2026-08-09T17:58:18Z'
-  last_observed: '2026-08-09T17:58:18Z'
+    branch: agentic-method-for-deterministic-validation-of-legacy-code-m-v2
+    timestamp: '2026-08-11T04:00:36Z'
+  last_observed: '2026-08-11T04:00:36Z'
 rejected_shapes:
 - shape_tag: null
   reason_code: null
@@ -59,4 +59,4 @@ rejected_shapes:
   - arxiv: 2607.22471v1
     timestamp: '2026-08-09T00:05:12Z'
 coordination_signals: []
-last_updated: '2026-08-10T11:22:47Z'
+last_updated: '2026-08-11T04:00:36Z'
