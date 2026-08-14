@@ -53,6 +53,16 @@ observed_landing_zones:
     branch: agentic-method-for-deterministic-validation-of-legacy-code-m-v3
     timestamp: '2026-08-11T23:10:03Z'
   last_observed: '2026-08-11T23:10:03Z'
+- path: tasks/4b2e17-fortran-card-parser-hardening/environment/fortran/
+  shape_tags:
+  - unclassified
+  confirmed_by:
+  - arxiv: 2607.28591v1
+    mode: ''
+    call_site_specifics: ''
+    branch: change2task-from-repository-changes-to-executable-coding-age
+    timestamp: '2026-08-14T13:50:22Z'
+  last_observed: '2026-08-14T13:50:22Z'
 rejected_shapes:
 - shape_tag: null
   reason_code: null
@@ -69,4 +79,4 @@ rejected_shapes:
   - arxiv: 2607.22471v1
     timestamp: '2026-08-12T18:31:07Z'
 coordination_signals: []
-last_updated: '2026-08-12T18:31:07Z'
+last_updated: '2026-08-14T13:50:22Z'
