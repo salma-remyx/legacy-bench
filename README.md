@@ -33,6 +33,7 @@ Legacy-Bench consists of hundreds of tasks spanning six legacy language families
 | `d1ddc1` | Fortran | migration | Lattice QCD migration to C++ |
 | `ecf5e7` | x86-64 ASM | fix/debug | MZ/NE header parser fix |
 | `fac397` | COBOL | migration | Batch interest migration |
+| `4b2e17` | Fortran | fix/debug | Card-field parser overflow hardening |
 
 ## Task Structure
 
@@ -102,6 +103,21 @@ pytest tests/test_outputs.py
 ```
 
 Refer to `task.toml` for task-specific settings (timeout, internet access, etc.).
+
+### Verify a Task's Lifecycle
+
+A task is only well-formed if its verifier fails on the state the agent
+receives and passes once the reference fix is applied. Check either property
+for any task without Docker:
+
+```shell
+python3 tools/task_lifecycle_check.py tasks/4b2e17-fortran-card-parser-hardening
+```
+
+The checker lays out both states locally (environment/ alone, and
+environment/ with the solution/ overlay), rewrites the verifier's container
+paths, and runs pytest on each. Exit code 0 means the verifier discriminates
+the two states.
 
 ## Results
 
